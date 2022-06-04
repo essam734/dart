@@ -1,8 +1,18 @@
-
 import 'dart:io';
 import 'dart:math';
 
-void main() {
+void main(List<String> args) {
+
+     // example loop
+  for (int i = 1; i <= 10; i++) {
+    for (int n = 1; n <= 10; n++) {
+      print("$i $n = ${i*n}");
+    }
+  }
+
+
+
+  //mathe game
   for (int n = 0; n < 5; n--) {
     Random random = new Random();
 
@@ -23,4 +33,5 @@ void main() {
       break;
     }
   }
+
 }
