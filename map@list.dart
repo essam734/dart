@@ -1,3 +1,4 @@
 void main(List<String> args) {
-  Map info = {};
+  Map info = {"name": "essam", "age": "25", "is married": "false"};
+  print(info);
 }
