@@ -2,15 +2,23 @@ import 'dart:io';
 import 'dart:math';
 
 void main(List<String> args) {
+  //if
 
-     // example loop
-  for (int i = 1; i <= 10; i++) {
-    for (int n = 1; n <= 10; n++) {
-      print("$i $n = ${i*n}");
-    }
+  var essam = 50;
+  if (essam >= 55) {
+    print("succsseful");
+  } else {
+    print("fail");
   }
 
+  //oop
 
+  // example loop
+  for (int i = 1; i <= 10; i++) {
+    for (int n = 1; n <= 10; n++) {
+      print("$i $n = ${i * n}");
+    }
+  }
 
   //mathe game
   for (int n = 0; n < 5; n--) {
@@ -35,3 +43,4 @@ void main(List<String> args) {
   }
 
 }
+
